@@ -2,7 +2,6 @@ def main():
     file_path = 'E:\\Repos\\AoC2025\\day1_input.txt'
 
     dial = 50
-    print('the dial starts pointing at ' + str(dial))
     answer = 0
 
     try:
@@ -24,7 +23,7 @@ def main():
 
                 print('------------')
 
-            print('ANSWER: ' + str(answer))
+            print(str(answer))
                     
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")

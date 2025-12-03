@@ -5,7 +5,6 @@ def main():
     file_path = 'E:\\Repos\\AoC2025\\day1_input.txt'
 
     dial = 50
-    print('the dial starts pointing at ' + str(dial))
     magnitude = 0
     total = 0
 
@@ -33,7 +32,7 @@ def main():
                         if (dial == 0 or dial % 100 == 0):
                             total += 1
 
-            print('ANSWER: ' + str(total))                
+            print(str(total))                
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
 
