@@ -1,5 +1,5 @@
 def main():
-    file_path = 'E:\\Repos\\AoC2025\\day1_input.txt'
+    file_path = './day1/day1_input.txt'
 
     dial = 50
     answer = 0
